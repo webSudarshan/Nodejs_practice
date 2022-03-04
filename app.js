@@ -6,9 +6,9 @@ const app = express();
 const now = new Date();
 const newDate = addDays(now, 100);
 
-let date = newDate.getDate();
-let month = newDate.getMonth();
-let year = newDate.getFullYear();
+const date = newDate.getDate();
+const month = newDate.getMonth();
+const year = newDate.getFullYear();
 
 const formattedDate = date + "-" + month + "-" + year;
 
